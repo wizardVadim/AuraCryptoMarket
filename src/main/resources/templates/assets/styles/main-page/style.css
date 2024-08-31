@@ -96,7 +96,8 @@ p {
     font-style: normal;
 
     transition: color .2s linear, background .2s linear, opacity .2s linear;
-    
+    cursor: pointer;
+
     margin: 0 15px;
 }
 
@@ -131,7 +132,7 @@ p {
     color: white;
 }
 
-.btn--bet {
+.btn--blue {
 
     background-color: rgba(70, 244, 219, 1);
 
@@ -144,8 +145,39 @@ p {
     font-size: 16px;
 }
 
-.btn--bet:hover {
-    background-color: white;
+.btn--blue:hover {
+    background-color: transparent;
+}
+
+.btn--blue:active {
+    opacity: .6;
+}
+
+.btn--items {
+    display: block;
+
+    margin: 0 auto;
+}
+
+.btn--page {
+
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(209, 49, 48, 1);
+
+    padding: 5px 20px;
+}
+
+.btn--page:hover {
+    background-color: rgba(209, 49, 48, 1);
+}
+
+.btn--page:active {
+    opacity: .6;
+}
+
+.btn--page--active {
+    background-color: rgba(209, 49, 48, 1);
 }
 
 /* Section */
@@ -153,6 +185,8 @@ p {
 .section {
 
     width: 100%;
+
+    padding: 30px 0;
 }
 
 .section--label {
@@ -163,26 +197,55 @@ p {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 60px;
+}
+
+.section__title--white {
+    color: white;
+}
+
+.section__title--black {
+    color: black;
 }
 
 .section__title--label {
-    color: rgba(255, 255, 255);
+    font-size: 70px;
 }
 
 .section__title--auctions {
-    color: black;
-
     font-size: 60px;
 
     display: flex;
     align-items: center;
 }
 
-.section__title--auctions__ohters {
-    color: black;
-
+.section__subtitle {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
+}
+
+.section__subtitle--white {
+    color: white;
+}
+
+.section__subtitle--black {
+    color: black;
+}
+
+.section--new__stickers {
+    background-color: rgba(7, 6, 11, 1);
+}
+
+.section--subscribtion {
+    background: #f5f5f5 url("/assets/images/main-page/subscribe_background.png");
+
+    max-height: 390px;
+}
+
+.section__subtitle--publication {
+    margin: 30px 0;
 }
 
 /* Label */
@@ -201,7 +264,7 @@ p {
 /* Auctions */
 
 .auctions {
-    padding: 40px 0;
+    padding-top: 30px;
 }
 
 .auctions__live {
@@ -452,3 +515,117 @@ p {
     margin-right: 7px;
 }
 
+/* New stickers */
+
+.new__stickers {
+    display: block;
+    position: relative;
+
+    margin: 30px 0;
+    padding: 40px 0;
+
+}
+
+.new__stickers__row {
+    margin: 30px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.new__stickers__item {
+    width: 23%;
+    border-radius: 50%;
+
+    transition: opacity .2s linear;
+}
+
+.new__stickers__item:hover {
+    opacity: .6;
+}
+
+.new__stickers__item img {
+    max-width: 300px;
+    max-height: 300px;
+
+    border-radius: 50%;
+}
+
+.new__stickers__pages {
+    display: flex;
+    justify-content: center;
+}
+
+/* Subscribtion */
+
+.subscribtion {
+    display: block;
+}
+
+.subscribtion form {
+    display: block;
+    margin: 0;
+}
+
+.subscribtion form ul {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.subscribtion form li {
+    margin: 20px 0;
+}
+
+.subscribtion form input::placeholder {
+    color: white;
+}
+
+/* Input */
+
+.input__text {
+    color: white;
+
+    width: 30%;
+
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Dela Gothic One", sans-serif;
+    font-style: normal;
+
+    background-color: rgba(7, 6, 11, 1);
+
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: transparent;
+}
+
+.input__text--incorrect {
+    border: 2px solid rgba(255, 111, 111, 1);
+    color: rgba(255, 111, 111, 1);
+}
+
+.input__checkbox {
+    margin-right: 20px;
+}
+
+/* Publication */
+
+.publication {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publication__block {
+    width: 50%;
+
+    padding: 0 10px;
+}
+
+.publication__describe {
+    margin: 30px 0;
+
+    line-height: 30px;
+}
+
+.publication__image {
+    margin: 15px 0;
+}
