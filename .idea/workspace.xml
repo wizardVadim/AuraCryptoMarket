@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5f4f11-5c91-482a-835f-f66ead09120c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/SignUpRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/AuraCryptoMarketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/AuraCryptoMarketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/AuraCryptoMarketApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/AuraCryptoMarketApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/UserService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
