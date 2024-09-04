@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5f4f11-5c91-482a-835f-f66ead09120c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/ExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/AdminController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/controller/RegistrationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/domain/dto/JwtAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/domain/dto/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/domain/dto/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wizardVadim/AuraCryptoMarket/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/controller/RegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/service/SecurityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wizardVadim/AuraCryptoMarket/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +51,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2lTfyGP3C52WsoRU3T0apnhOY1k" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +62,7 @@
   "keyToString": {
     "Application.AuraCryptoMarketApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vadimvehov/Documents/GitHub/Java/AuraCryptoMarket",

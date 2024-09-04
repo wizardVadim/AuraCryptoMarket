@@ -1,4 +1,4 @@
-package com.wizardVadim.AuraCryptoMarket.config;
+package com.wizardVadim.AuraCryptoMarket.domain.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

@@ -3,6 +3,7 @@ package com.wizardVadim.AuraCryptoMarket.service;
 import com.wizardVadim.AuraCryptoMarket.entity.Role;
 import com.wizardVadim.AuraCryptoMarket.entity.User;
 import com.wizardVadim.AuraCryptoMarket.repository.UserRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class UserService {
-    private UserRepository repository;
+    private final UserRepository repository;
 
     /**
      * Сохранение пользователя
