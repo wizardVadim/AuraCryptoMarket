@@ -1,4 +1,4 @@
-package com.wizardVadim.AuraCryptoMarket.controller;
+package com.wizardVadim.AuraCryptoMarket.controller.api;
 
 import com.wizardVadim.AuraCryptoMarket.entity.User;
 import com.wizardVadim.AuraCryptoMarket.service.UserService;
