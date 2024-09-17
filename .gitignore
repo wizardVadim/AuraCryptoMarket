@@ -40,3 +40,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Игнорировать настройки IntelliJ IDEA
+.idea/
+
+# Игнорировать все файлы настроек
+src/main/resources/application-*.properties
