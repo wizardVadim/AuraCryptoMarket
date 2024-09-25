@@ -50,11 +50,7 @@
 
 </template>
 
-<script>
-export default {
-name: 'PublicationComponent',
-};
-</script>
+<script src="./scripts/PublicationComponent.js"></script>
 
 <style scoped>
 /* Стили для publication */

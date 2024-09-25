@@ -8,7 +8,7 @@
                       <div class="header__section">
 
                           <a class="header__logo" href="#">
-                              <img src="/images/main-page/logo.png" alt="">
+                              <img src="../assets/images/main-page/logo.png" alt="">
                           </a>
 
                           <div class="navs">
@@ -31,11 +31,7 @@
           </header> <!-- ./header -->
 </template>
 
-<script>
-export default {
-  name: 'HeaderComponent',
-};
-</script>
+<script src="./scripts/HeaderComponent.js"></script>
 
 <style scoped>
 /* Стили для шапки */

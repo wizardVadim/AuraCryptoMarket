@@ -48,7 +48,7 @@ bin/
 backend/src/main/resources/application.properties
 
 # Игнорировать папку target
-target/
+backend/target/
 
 # Игнорировать данные node.js
-/node_modules
+frontend/node_modules

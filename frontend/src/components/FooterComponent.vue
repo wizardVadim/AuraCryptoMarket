@@ -6,7 +6,7 @@
               <div class="footer__inner">
                   <div class="footer__block">
                       <a class="footer__logo" href="#">
-                          <img src="/images/main-page/logo.png" alt="">
+                        <img src="../assets/images/main-page/logo.png" alt="">
                       </a>
                   </div>
 
@@ -28,11 +28,7 @@
       </footer> <!-- ./footer -->
 </template>
 
-<script>
-export default {
-  name: 'FooterComponent',
-};
-</script>
+<script src="./scripts/FooterComponent.js"></script>
 
 <style scoped>
 /* Стили для подвала */

@@ -39,14 +39,10 @@
 </template>
 
 <script>
+import TopComponentLogic from './scripts/TopComponent.js'; // Импортируем логику компонента
+
 export default {
-    name: 'TopComponent',
-    props: {
-        topItems: {
-            type: Array,
-            required: true,
-        },
-    },
+    ...TopComponentLogic, // Распространяем логику в основной компонент
 };
 </script>
 

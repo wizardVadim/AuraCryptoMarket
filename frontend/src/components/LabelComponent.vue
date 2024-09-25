@@ -21,11 +21,7 @@
 
 </template>
 
-<script>
-export default {
-name: 'LabelComponent',
-};
-</script>
+<script src="./scripts/LabelComponent.js"></script>
 
 <style scoped>
 /* Стили для label */

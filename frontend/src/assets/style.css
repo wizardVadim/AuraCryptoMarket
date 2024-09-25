@@ -209,7 +209,7 @@ p {
 }
 
 .section--label {
-    background: #f5f5f5 url("/images/main-page/label.png") center no-repeat;
+    background: #f5f5f5 url('./images/main-page/label.png') center no-repeat;
 }
 
 .section__title {
@@ -258,7 +258,7 @@ p {
 }
 
 .section--subscribtion {
-    background: #f5f5f5 url("/images/main-page/subscribe_background.png");
+    background: #f5f5f5 url('./images/main-page/subscribe_background.png');
 
     max-height: 390px;
 }

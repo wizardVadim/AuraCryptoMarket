@@ -44,11 +44,7 @@
 
 </template>
 
-<script>
-export default {
-name: 'NewStickersComponent',
-};
-</script>
+<script src="./scripts/NewStickersComponent.js"></script>
 
 <style scoped>
 /* Стили для new stickers */

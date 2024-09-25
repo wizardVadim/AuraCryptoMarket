@@ -39,11 +39,7 @@
 
 </template>
 
-<script>
-export default {
-name: 'InfoComponent',
-};
-</script>
+<script src="./scripts/InfoComponent.js"></script>
 
 <style scoped>
 /* Стили для info */
