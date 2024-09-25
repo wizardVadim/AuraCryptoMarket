@@ -4,7 +4,7 @@
       <div class="section__title section__title--black section__title--auctions">
         <p>Аукцион</p>
         <div class="auctions__live">
-          <p>&bull Live auction</p>
+          <p>Live auction</p>
         </div>
       </div>
   
@@ -52,7 +52,7 @@
                   <p class="auctions__current__time__name">Сек</p>
                 </div>
               </div>
-              <img src="/images/main-page/oclock.png" alt="">
+              <img src="../assets/images/main-page/oclock.png" alt="">
             </div>
           </div>
   

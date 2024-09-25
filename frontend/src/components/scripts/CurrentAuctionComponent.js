@@ -11,11 +11,11 @@ export default {
       },
       authorImageSrc: {
         type: String,
-        default: '/images/main-page/48x48Author.png',
+        default: require('@/assets/images/main-page/48x48Author.png'),
       },
       imageSrc: {
         type: String,
-        default: '/images/main-page/460x460Sticker.png',
+        default: require('@/assets/images/main-page/460x460Sticker.png'),
       },
       currentBet: {
         type: Number,
