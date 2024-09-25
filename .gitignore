@@ -45,7 +45,10 @@ bin/
 .idea/
 
 # Игнорировать файл настроек приложения
-src/main/resources/application.properties
+backend/src/main/resources/application.properties
 
 # Игнорировать папку target
 target/
+
+# Игнорировать данные node.js
+/node_modules
