@@ -2,7 +2,14 @@
     <section class="section">
         <div class="container">
             <div class="auctions">
-                <CurrentAuctionComponent />
+                <CurrentAuctionComponent 
+                auctionName="Witcherrr_3(xml_t5)"
+                authorName="Serge_VM222"
+                currentBet="0.10"
+                currency="ETH"
+                dollarsEquivalent="351.24"
+                :endTime="new Date(Date.now() + 3600 * 1000)"  
+                />
 
                 <div class="auctions__others">
                     <div class="section__subtitle section__subtitle--black">
@@ -43,7 +50,13 @@
     </section> <!-- ./section -->
 </template>
 
-<script src="./scripts/AuctionsComponent.js"></script>
+<script>
+import AuctionsComponentLogic from './scripts/AuctionsComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...AuctionsComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для auctions */

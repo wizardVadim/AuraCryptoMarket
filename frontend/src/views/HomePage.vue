@@ -1,24 +1,23 @@
 <template>
   <div>
     <LabelComponent />
-    <CurrentAuctionComponent 
-      auctionName="Witcherrr_3(xml_t5)"
-      authorName="Serge_VM222"
-      currentBet="0.10"
-      currency="ETH"
-      dollarsEquivalent="351.24"
-      :endTime="new Date(Date.now() + 3600 * 1000)"  
-    />
+    <AuctionsComponent />
+    <NewStickersComponent />
     <SubComponent />
+    <PublicationComponent />
     <TopComponent />
+    <InfoComponent />
   </div>
 </template>
 
 <script>
 import SubComponent from '@/components/SubComponent.vue';
 import TopComponent from '@/components/TopComponent.vue';
-import CurrentAuctionComponent from '@/components/CurrentAuctionComponent.vue';
 import LabelComponent from '@/components/LabelComponent.vue';
+import NewStickersComponent from '@/components/NewStickersComponent.vue';
+import PublicationComponent from '@/components/PublicationComponent.vue';
+import AuctionsComponent from '@/components/AuctionsComponent.vue';
+import InfoComponent from '@/components/InfoComponent.vue';
 
 export default {
   name: 'HomePage',
@@ -26,7 +25,10 @@ export default {
     LabelComponent,
     SubComponent,
     TopComponent,
-    CurrentAuctionComponent
+    NewStickersComponent,
+    PublicationComponent,
+    AuctionsComponent,
+    InfoComponent
   }
 };
 </script>

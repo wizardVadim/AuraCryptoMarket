@@ -21,7 +21,13 @@
 
 </template>
 
-<script src="./scripts/LabelComponent.js"></script>
+<script>
+import LabelComponentLogic from './scripts/LabelComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...LabelComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для label */

@@ -15,10 +15,10 @@
                         </p>
                     </div>
                     <div class="publication__describe">
-                        Отправь нам от трёх до пяти своих работ и напиши свой ник в телеграме. Если наши кураторы решат, что нам по пути, то мы обязательно свяжемся с тобой и обговорим условия сотрудничества! Удачи!
+                        Отправь нам от трёх до пяти своих работ и напиши свой ник в телеграме. Если наши кураторы решат, что нам по пути, то мы обязательно свяжемся с тобой и обговорим условия сотрудничества! Удачи!
                     </div>
 
-                    <img class="publication__image" src="/images/main-page/publicationImage.png" alt="">
+                    <img class="publication__image" src="../assets/images/main-page/publicationImage.png" alt="">
                 </div>
 
                 <div class="publication__block">
@@ -50,7 +50,13 @@
 
 </template>
 
-<script src="./scripts/PublicationComponent.js"></script>
+<script>
+import PublicationComponentLogic from './scripts/PublicationComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...PublicationComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для publication */

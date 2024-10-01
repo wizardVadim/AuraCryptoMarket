@@ -5,8 +5,8 @@
                 <div class="section__title section__title--white">
                     <p>Топ продаж</p>
                 </div>
-                <div class="top__row" v-for="(item, index) in topItems" :key="index">
-                    <div class="top__item">
+                <div v-for="(row, rowIndex) in groupedTopItems" :key="rowIndex" class="top__row">
+                    <div v-for="(item, index) in row" :key="index" class="top__item">
                         <div class="top__image-back">
                             <img :src="item.image" alt="" class="top__image">
                         </div>

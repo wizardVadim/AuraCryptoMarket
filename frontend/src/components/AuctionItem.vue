@@ -23,7 +23,13 @@
     </div>
   </template>
   
-  <script src="./scripts/AuctionItem.js"></script>
+<script>
+import AuctionItemLogic from './scripts/AuctionItem.js'; // Импортируем логику компонента
+
+export default {
+    ...AuctionItemLogic, // Распространяем логику в основной компонент
+};
+</script>
   
   <style scoped>
   /* Стили для AuctionItem */

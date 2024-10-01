@@ -800,14 +800,14 @@ p {
     position: absolute;
     border-radius: 50%;
 
-    top: 30px;
+    top: 12px;
     left: 30px;
 }
 
 .top__author__name {
     font-size: 12px;
     margin-top: 18px;
-    margin-left: 65px;
+    margin-left: 90px;
 }
 
 .top__name {

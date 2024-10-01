@@ -1,50 +1,46 @@
 <template>
-    
     <section class="section section--black">
+      <div class="container">
+        <div class="new__stickers">
+          <div class="section__title section__title--white">
+            <p>&#128293; Новые стикеры</p>
+          </div>
+  
+          <!-- Рендерим стикеры через v-for -->
+          <div class="new__stickers__row">
+            <a
+              v-for="(sticker, index) in paginatedStickers"
+              :key="index"
+              :href="sticker.href"
+              class="new__stickers__item"
+            >
+              <img :src="sticker.image" :alt="sticker.altText" />
+            </a>
+          </div>
+  
+          <!-- Динамическая пагинация -->
+          <div class="new__stickers__pages">
+            <button
+              v-for="page in totalPages"
+              :key="page"
+              :class="['btn', 'btn--page', { 'btn--page--active': page === currentPage }]"
+              @click="currentPage = page"
+            >
+              {{ page }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
 
-        <div class="container">
+<script>
+import NewStickersComponentLogic from './scripts/NewStickersComponent.js'; // Импортируем логику компонента
 
-            <div class="new__stickers">
-
-                <div class="section__title section__title--white">
-                    <p>&#128293 Новые стикеры</p>
-                </div>
-
-                <div class="new__stickers__row">
-
-                    <a href="#" class="new__stickers__item">
-                        <img src="/images/main-page/300x300StickerGreen.png" alt="">
-                    </a>
-                    <a href="#" class="new__stickers__item">
-                        <img src="/images/main-page/300x300StickerGreen.png" alt="">
-                    </a>
-                    <a href="#" class="new__stickers__item">
-                        <img src="/images/main-page/300x300StickerGreen.png" alt="">
-                    </a>
-                    <a href="#" class="new__stickers__item">
-                        <img src="/images/main-page/300x300StickerGreen.png" alt="">
-                    </a>
-
-                </div>
-
-                <div class="new__stickers__pages">
-
-                    <button class="btn btn--page btn--page--active">1</button>
-                    <button class="btn btn--page">2</button>
-                    <button class="btn btn--page">3</button>
-                    <button class="btn btn--page">4</button>
-
-                </div>
-
-            </div>
-
-        </div> <!-- ./container -->
-
-    </section> <!-- ./section -->
-
-</template>
-
-<script src="./scripts/NewStickersComponent.js"></script>
+export default {
+    ...NewStickersComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для new stickers */

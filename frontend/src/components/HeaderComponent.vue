@@ -31,7 +31,13 @@
           </header> <!-- ./header -->
 </template>
 
-<script src="./scripts/HeaderComponent.js"></script>
+<script>
+import HeaderComponentLogic from './scripts/HeaderComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...HeaderComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для шапки */

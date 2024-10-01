@@ -28,7 +28,13 @@
       </footer> <!-- ./footer -->
 </template>
 
-<script src="./scripts/FooterComponent.js"></script>
+<script>
+import FooterComponentLogic from './scripts/FooterComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...FooterComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для подвала */

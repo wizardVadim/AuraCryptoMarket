@@ -27,7 +27,7 @@
 
                 <div class="help__block help__block--second">
                     <div class="help__img">
-                        <img src="/images/main-page/helpImage.png" alt="">
+                        <img src="../assets/images/main-page/helpImage.png" alt="">
                     </div>
                 </div>
 
@@ -39,7 +39,13 @@
 
 </template>
 
-<script src="./scripts/InfoComponent.js"></script>
+<script>
+import InfoComponentLogic from './scripts/InfoComponent.js'; // Импортируем логику компонента
+
+export default {
+    ...InfoComponentLogic, // Распространяем логику в основной компонент
+};
+</script>
 
 <style scoped>
 /* Стили для info */
