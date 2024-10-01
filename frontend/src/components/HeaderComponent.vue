@@ -12,7 +12,7 @@
                           </a>
 
                           <div class="navs">
-                              <a href="#" class="navs__item navs__item--active">Авторы</a>
+                              <a href="#" class="navs__item">Авторы</a>
                               <a href="#" class="navs__item">Коллекции</a>
                               <a href="#" class="navs__item">Сервисы</a>
                           </div>
@@ -22,6 +22,8 @@
 
                       <div class="header__buttons">
                           <button class="btn btn--black btn--wallet">Кошелёк</button>
+                          <a href="/login" class="btn btn--blue btn--auth">Вход</a>
+                          <a href="/register" class="btn btn--blue btn--auth">Регистрация</a>
                       </div>
 
 

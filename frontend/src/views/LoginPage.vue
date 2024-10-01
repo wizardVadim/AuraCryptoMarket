@@ -1,12 +1,20 @@
 <template>
-    <div>
-      <h1>Login</h1>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'LoginPage',
-  };
-  </script>
-  
+  <div>
+    <InfoComponent />
+  </div>
+</template>
+
+<script>
+import InfoComponent from '@/components/InfoComponent.vue';
+
+export default {
+  name: 'LoginPage',
+  components: {
+    InfoComponent
+  }
+};
+</script>
+
+<style scoped>
+/* Стили для главной страницы, если нужны */
+</style>
