@@ -5,7 +5,7 @@
 
               <div class="footer__inner">
                   <div class="footer__block">
-                      <a class="footer__logo" href="#">
+                      <a class="footer__logo" href="/">
                         <img src="../assets/images/main-page/logo.png" alt="">
                       </a>
                   </div>

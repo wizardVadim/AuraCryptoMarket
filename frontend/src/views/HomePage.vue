@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeaderComponent :isModalAuth = true />
     <LabelComponent />
     <AuctionsComponent />
     <NewStickersComponent />
@@ -18,10 +19,12 @@ import NewStickersComponent from '@/components/NewStickersComponent.vue';
 import PublicationComponent from '@/components/PublicationComponent.vue';
 import AuctionsComponent from '@/components/AuctionsComponent.vue';
 import InfoComponent from '@/components/InfoComponent.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue';
 
 export default {
   name: 'HomePage',
   components: {
+    HeaderComponent,
     LabelComponent,
     SubComponent,
     TopComponent,

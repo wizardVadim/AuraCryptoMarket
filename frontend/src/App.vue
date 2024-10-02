@@ -1,7 +1,6 @@
 <template>
     <div id="app">
 
-        <HeaderComponent /> <!-- Header -->
         <router-view />  <!-- Здесь будет отображаться контент страниц -->
         <FooterComponent /> <!-- Footer -->
 
@@ -9,13 +8,11 @@
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    HeaderComponent,
     FooterComponent,
   },
 };
@@ -23,5 +20,5 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 </style>

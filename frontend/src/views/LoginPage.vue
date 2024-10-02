@@ -1,16 +1,26 @@
 <template>
   <div>
-    <InfoComponent />
+
+    <HeaderComponent />
+
+    <div class="section">
+      <div class="container">
+        <LoginComponent />
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
-import InfoComponent from '@/components/InfoComponent.vue';
+import LoginComponent from '@/components/LoginComponent.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue';
 
 export default {
   name: 'LoginPage',
   components: {
-    InfoComponent
+    LoginComponent,
+    HeaderComponent,
   }
 };
 </script>
