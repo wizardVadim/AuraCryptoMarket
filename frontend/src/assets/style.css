@@ -19,7 +19,7 @@ p {
     max-width: 1280px;
     width: 100%;
     padding: 0 15px;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 .container--header {
@@ -63,6 +63,8 @@ p {
     align-content: center;
     display: flex;
     justify-content: right;
+
+    align-items: center;
     
 }
 
@@ -268,7 +270,7 @@ p {
 .section--subscribtion {
     background: #f5f5f5 url('./images/main-page/subscribe_background.png');
 
-    max-height: 390px;
+    max-height: 330px;
 }
 
 .section__subtitle--publication {
@@ -888,7 +890,7 @@ p {
 /* Footer */
 
 .footer {
-    
+    margin-top: auto; /* Подталкивает подвал вниз */
 
     background-color: rgba(70, 244, 219, 1);
 }

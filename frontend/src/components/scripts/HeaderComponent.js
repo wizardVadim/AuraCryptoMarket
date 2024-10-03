@@ -16,7 +16,9 @@ export default {
     data() {
       return {
         showLoginModal: false,
-        showRegisterModal: false, // Управление показом модального окна
+        showRegisterModal: false,
+        isAuthorized: !!localStorage.getItem('token'),
+        userId: localStorage.getItem('userId') // Управление показом модального окна
       };
     },
   };

@@ -25,9 +25,13 @@
   }
 
   .login__full {
-    height: 65vh;
+    min-height: 55vh;
 
-    vertical-align:middle;
+    vertical-align: middle;
+  }
+
+  .login__full form {
+    margin: 15% 0;
   }
 
   .login__container {

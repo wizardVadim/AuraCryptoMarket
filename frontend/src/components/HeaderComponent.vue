@@ -21,11 +21,16 @@
 
 
                       <div class="header__buttons">
-                          <button class="btn btn--black btn--wallet">Кошелёк</button>
-                          <button v-if="isModalAuth" @click="showLoginModal = true" class="btn btn--blue btn--auth">Вход</button>
-                          <a v-else href="/login" class="btn btn--blue btn--auth">Вход</a>
-                          <button v-if="isModalAuth" @click="showRegisterModal = true" class="btn btn--blue btn--auth">Регистрация</button>
-                          <a v-else href="/register" class="btn btn--blue btn--auth">Регистрация</a>
+                          <a v-if="isAuthorized" :href="`/user/${userId}`"  class="btn btn--black btn--wallet">Личный кабинет</a>
+                          <div v-if="isAuthorized" class="header__auth">
+                            <a href="/logout" class="btn btn--blue btn--auth">Выход</a>  
+                          </div>
+                          <div v-else class="header__auth">
+                            <button v-if="isModalAuth" @click="showLoginModal = true" class="btn btn--blue btn--auth">Вход</button>
+                            <a v-else href="/login" class="btn btn--blue btn--auth">Вход</a>
+                            <button v-if="isModalAuth" @click="showRegisterModal = true" class="btn btn--blue btn--auth">Регистрация</button>
+                            <a v-else href="/register" class="btn btn--blue btn--auth">Регистрация</a>
+                        </div>
                       </div>
 
 
