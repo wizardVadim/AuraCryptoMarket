@@ -7,13 +7,13 @@
   
       
         <TabsComponent>
-          <!-- <template v-slot:tab1>
+          <template v-slot:tab1>
             <MyAuctionsComponent />
           </template>
           <template v-slot:tab2>
             <MyCollectionComponent />
           </template>
-          <template v-slot:tab3>
+          <!-- <template v-slot:tab3>
             <AccountSettingsComponent />
           </template> -->
         </TabsComponent>
@@ -25,8 +25,8 @@
   import HeaderComponent from '@/components/HeaderComponent.vue';
   import UserInfoComponent from '@/components/UserInfoComponent.vue';
   import TabsComponent from '@/components/TabsComponent.vue';
-//   import MyAuctionsComponent from '@/components/MyAuctionsComponent.vue';
-//   import MyCollectionComponent from '@/components/MyCollectionComponent.vue';
+  import MyAuctionsComponent from '@/components/MyAuctionsComponent.vue';
+  import MyCollectionComponent from '@/components/MyCollectionComponent.vue';
 //   import AccountSettingsComponent from '@/components/AccountSettingsComponent.vue';
   
   export default {
@@ -35,8 +35,8 @@
       HeaderComponent,
       UserInfoComponent,
       TabsComponent,
-    //   MyAuctionsComponent,
-    //   MyCollectionComponent,
+      MyAuctionsComponent,
+      MyCollectionComponent,
     //   AccountSettingsComponent,
     },
   };

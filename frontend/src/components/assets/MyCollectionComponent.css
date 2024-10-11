@@ -1,0 +1,46 @@
+.my-collections button {
+    padding: 10px;
+
+    display: block;
+
+    margin: 20px auto;
+}
+
+.collection-item {
+    margin: 20px;
+    padding: 25px;
+
+    text-align: center;
+
+    width: fit-content;
+
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section__title {
+    text-align: center;
+}
+
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+
+.btn--other {
+
+    color: lightgray;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+}
+
+.sticker-details img {
+    margin: 30px;
+
+    width: 128px;
+    height: 128px;
+
+    border-radius: 50%;
+}
