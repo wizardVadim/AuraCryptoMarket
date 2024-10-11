@@ -1,7 +1,6 @@
 <template>
 
     <section class="section">
-        <div class="container">
 
             <div class="my-auctions">
                 <div class="section__title">
@@ -33,7 +32,6 @@
 
             </div>
 
-        </div>     
     </section>
 
 </template>

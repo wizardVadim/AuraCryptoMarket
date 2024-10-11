@@ -1,7 +1,6 @@
 <template>
 
     <section class="section">
-        <div class="container">
 
             <div class="my-collections">
                 <div class="section__title">
@@ -32,7 +31,6 @@
 
             </div>
 
-        </div>     
     </section>
 
 </template>
