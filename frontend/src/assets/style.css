@@ -75,6 +75,13 @@ p {
     width: fit-content;
 }
 
+.navs button {
+    
+    background: none;
+    border: 1px solid transparent;
+    
+}
+
 .navs__item {
     text-decoration: none;
     padding: 8px;
@@ -86,7 +93,8 @@ p {
     font-family: "Stick", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20;
+    font-size: 16px;
+
 }
 
 .navs__item--active {
@@ -95,6 +103,8 @@ p {
 
 .navs__item:hover {
     border-bottom: solid 1px;
+
+    cursor: pointer;
 }
 
 .navs--footer {

@@ -2,6 +2,10 @@
     margin-top: 50px;
 }
 
+.account-settings .section__title {
+    text-align: center;
+}
+
 .input--name
 , .input--lastname
 , .input--email

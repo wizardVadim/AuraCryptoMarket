@@ -12,7 +12,7 @@
                           </a>
 
                           <div class="navs">
-                              <a href="#" class="navs__item">Авторы</a>
+                              <button @click="showAuthorsModal = true" class="navs__item">Авторы</button>
                               <a href="#" class="navs__item">Коллекции</a>
                               <a href="#" class="navs__item">Сервисы</a>
                           </div>
@@ -41,6 +41,7 @@
 
           <LoginComponent v-if="showLoginModal" :isModal="true" @close="showLoginModal = false"  />
           <RegisterComponent v-if="showRegisterModal" :isModal="true" @close="showRegisterModal = false"  />
+          <AuthorsComponent v-if="showAuthorsModal" @close="showAuthorsModal = false" />
 
 </template>
 
