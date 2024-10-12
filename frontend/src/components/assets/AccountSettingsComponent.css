@@ -1,0 +1,84 @@
+.account-settings form {
+    margin-top: 50px;
+}
+
+.input--name
+, .input--lastname
+, .input--email
+, .input--password {
+    display: block;
+    margin: 25px auto;
+    padding: 8px;
+    width: 400px;
+
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Dela Gothic One", sans-serif;
+    font-style: normal;
+
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px black solid;
+}
+
+.input--name::placeholder
+, .input--lastname::placeholder
+, .input--email::placeholder
+, .input--password::placeholder {
+    text-align: center;
+}
+
+.settings__buttons {
+    width: fit-content;
+
+    margin: 0 auto;
+}
+
+.settings__buttons button {
+    margin-right: 0;
+}
+
+.settings__block-title {
+    text-align: center;
+
+    font-size: 22px;
+
+}
+
+.settings__block {
+    margin: 50px;
+}
+
+.notifications-section {
+
+    width: fit-content;
+
+    margin: 30px auto;
+}
+
+
+.btn--delete {
+    color: red;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+
+    font-size: 16px;
+
+    padding: 0;
+
+    margin-left: 100px;
+}
+
+.btn--delete:hover {
+    border-bottom: 1px solid red;
+    border-radius: 0;
+
+    cursor: pointer;
+}
+
+.delete__block {
+    width: fit-content;
+
+    float: right;
+}

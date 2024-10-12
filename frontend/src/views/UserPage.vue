@@ -13,9 +13,9 @@
           <template v-slot:tab2>
             <MyCollectionComponent />
           </template>
-          <!-- <template v-slot:tab3>
+          <template v-slot:tab3>
             <AccountSettingsComponent />
-          </template> -->
+          </template>
         </TabsComponent>
        
     </div>
@@ -27,7 +27,7 @@
   import TabsComponent from '@/components/TabsComponent.vue';
   import MyAuctionsComponent from '@/components/MyAuctionsComponent.vue';
   import MyCollectionComponent from '@/components/MyCollectionComponent.vue';
-//   import AccountSettingsComponent from '@/components/AccountSettingsComponent.vue';
+  import AccountSettingsComponent from '@/components/AccountSettingsComponent.vue';
   
   export default {
     name: 'UserPage',
@@ -37,7 +37,7 @@
       TabsComponent,
       MyAuctionsComponent,
       MyCollectionComponent,
-    //   AccountSettingsComponent,
+      AccountSettingsComponent,
     },
   };
   </script>
